@@ -79,11 +79,11 @@ elif zakladka=="Opis projektu":
         unsafe_allow_html=True
     )
     st.markdown("""<div style="font-size:20px">Celem projektu było stworzenie interaktywnego systemu do przewidywania ocen uczniów na podstawie danych edukacyjnych, z użyciem regresji logistycznej.
-            Projekt demonstruje cały proces: od przygotowania danych, przez budowę i trenowanie modelu, aż po integrację z interaktywnym frontendem w Streamlit oraz bazą danych SQLite</div> """,unsafe_allow_html=True)
+            Projekt demonstruje cały proces: od przygotowania danych, przez budowę i trenowanie modelu, aż po integrację z interaktywnym frontendem w Streamlit oraz bazą danych SQLite.</div> """,unsafe_allow_html=True)
 
     st.markdown(" ")
     st.markdown("""<div style="font-size:20px">Dane użyte w projekcie są sztucznie wygenerowane, symulujące typowe informacje edukacyjne, np. wyniki z testów, frekwencję, zadania domowe. Dane w trakcie ich generowania zostały celowo zanieczyszczone (braki wartości, błędy, nieprawidłowe formaty), aby zasymulować realistyczne scenariusze pracy z danymi.
-            Przed treningiem modelu dane zostały oczyszczane oraz odpowiednio przygotowane przygotowywane.</div>""",unsafe_allow_html=True)
+            Przed treningiem modelu dane zostały oczyszczane oraz odpowiednio przygotowywane.</div>""",unsafe_allow_html=True)
     st.markdown(" ")
     st.markdown("""<div style="font-size:20px"> Zastosowany model to <b>regresja logistyczna</b>, która przewiduje prawdopodobieństwo uzyskania określonej oceny przez ucznia. </div>""", unsafe_allow_html=True )
     st.markdown(" ")
