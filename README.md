@@ -25,6 +25,8 @@ danych SQLite oraz Docker.
 1. Sklonuj repozytorium
 ```bash
 git clone https://github.com/joannakowalska2507/GradesPredicted.git
+```
+```bash
 cd GradesPredicted
 ```
 2. Uruchom Docker Compose
